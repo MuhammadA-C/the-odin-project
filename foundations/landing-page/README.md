@@ -27,6 +27,7 @@ The purpose of this project was to build a landing page design that was provided
 - Center the subtext for the image containers in the "some random information" section
 - Implement functionality for the "sign up" buttons
 - Implement functionality for the links to direct to a page/section
+- Make the website responsive, specifically for different screen sizes and mobile
 
 ---
 
@@ -38,3 +39,8 @@ The purpose of this project was to build a landing page design that was provided
 - Visual Studio Code
 - Git
 - GitHub
+
+### Specs
+
+- Google Chrome
+- 16" M1 MacBook Pro
