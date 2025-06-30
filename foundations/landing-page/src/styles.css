@@ -1,1 +1,86 @@
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-secondary-text,
+a:visited,
+a:link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.links-container {
+  display: flex;
+  gap: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.header-content-left {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.header-content-right {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(116, 118, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10%;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header-text {
+  font-weight: 900;
+  font-size: 36px;
+}
