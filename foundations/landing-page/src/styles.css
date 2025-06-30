@@ -1,8 +1,11 @@
+/* GLOBAL VARIABLES */
 :root {
   --dark-background: #1f2937;
   --white: #f9faf8;
   --blue: #3882f6;
 }
+
+/* Changed default CSS */
 
 body,
 p {
@@ -28,7 +31,7 @@ button {
   height: 30px;
   background-color: var(--blue);
   border: none;
-  border-radius: 10%;
+  border-radius: 10px;
   color: var(--white);
   font-weight: bold;
 }
@@ -98,18 +101,18 @@ a:link {
 
 /* INFORMATION CONTENT */
 
-.information-container,
+.information-section,
 .images-container,
 .image-container {
   display: flex;
 }
 
-.information-container,
+.information-section,
 .image-container {
   flex-direction: column;
 }
 
-.information-container {
+.information-section {
   align-items: center;
   height: 500px;
   gap: 40px;
@@ -124,6 +127,7 @@ a:link {
 
 .images-container {
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .image-container {
@@ -144,13 +148,13 @@ a:link {
 
 /* QUOTE CONTENT */
 
-.middle-content-container,
+.quote-section,
 .quote-container {
   display: flex;
   flex-direction: column;
 }
 
-.middle-content-container {
+.quote-section {
   background-color: #e5e7eb;
   height: 400px;
   justify-content: center;
@@ -173,6 +177,40 @@ a:link {
 .quote-text-author {
   align-self: flex-end;
   font-weight: bold;
+}
+
+/* CALL TO ACTON CONTENT */
+
+.call-to-action-container,
+.call-to-action-section {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action-section {
+  justify-content: center;
+  height: 400px;
+}
+
+.call-to-action-container {
+  background-color: var(--blue);
+  width: 1000px;
+  height: 200px;
+  border-radius: 13px;
+  justify-content: space-around;
+}
+
+.call-to-action-section button {
+  outline: 2px solid var(--white);
+}
+
+.call-to-action-text-container {
+  color: var(--white);
+  font-size: 24px;
+}
+
+.call-to-action-text-container :first-child {
+  font-weight: 900;
 }
 
 /* FOOTER CONTENT */
